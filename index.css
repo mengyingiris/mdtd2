@@ -83,65 +83,7 @@ transform: translateX(-50%);
 
 
 /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
-.s2 {
-position: absolute;
-display: flex;
-align-items: center;
-text-align: center;
-font-family: 'Roboto' sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 35px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #5DA1E0;
-z-index: 6;
-margin-top: 50px;
-}
 
-
-
-/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
-.s1 {
-position: absolute;
-display: flex;
-align-items: center;
-text-align: center;
-font-family: 'Roboto' sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 35px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #5DA1E0;
-z-index: 3;
-margin-top: 50px;
-}
-
-
-
-/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
-.s3 {
-position: absolute;
-display: flex;
-align-items: center;
-text-align: center;
-font-family: 'Roboto' sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 35px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #5DA1E0;
-z-index: 3;
-margin-top: 50px;
-}
 
 
 p{
@@ -585,16 +527,16 @@ hr{
       position: absolute;
 left: 50%;
 transform: translateX(-50%);
-top: 60px;
+top: 50px;
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
-font-size: 7px;
-line-height: 10px;
+font-size: 8px;
+line-height: 11px;
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.08em;
-width: 145px;
+width: 165px;
     }
 
     p2{
@@ -623,4 +565,36 @@ width:500px;
 
     }
 
+    h1{
+      position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 224px;
+font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 26px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+color: #E8540B;
+width: 185px;
+    }
+
+    .social-icons2{
+      position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 335px;
+  list-style: none;
+  margin-left: -20px;
+  display: flex;
+  flex-direction: row;
+  opacity: 90%;
+
+    }
 }
