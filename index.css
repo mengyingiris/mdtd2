@@ -1,7 +1,12 @@
 
+a{
+  text-decoration: none;
+
+}
 body{
 text-align: center;
 margin: 0;
+cursor: url(image/mouse.png),auto;
 }
 .container{
 
@@ -32,24 +37,27 @@ nav ul{
   display: flex;
 
 }
+.icon{
+  position: absolute;
 
-.nav-items li{
-   list-style: none;
-   margin-right: 80px;
+  left: 38%;
+  /* transform: translateX(-50%); */
+  top: 485px;
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  opacity: 90%;
+  text-decoration: none;
 }
+li{
+  list-style:none;
+  margin: 0px 20px;
+  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
 
-.nav-items li a{
 
-  position:relative;
-  left: 894px;
-  top: 12px;
-  font-family:‘Montserrat’, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-letter-spacing: -0.015em;
-color: #333333;
-text-decoration: none;
 }
 .submit{
   position: relative;
@@ -83,65 +91,7 @@ transform: translateX(-50%);
 
 
 /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
-.s2 {
-position: absolute;
-display: flex;
-align-items: center;
-text-align: center;
-font-family: 'Roboto' sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 35px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #5DA1E0;
-z-index: 6;
-margin-top: 50px;
-}
 
-
-
-/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
-.s1 {
-position: absolute;
-display: flex;
-align-items: center;
-text-align: center;
-font-family: 'Roboto' sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 35px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #5DA1E0;
-z-index: 3;
-margin-top: 50px;
-}
-
-
-
-/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
-.s3 {
-position: absolute;
-display: flex;
-align-items: center;
-text-align: center;
-font-family: 'Roboto' sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 35px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #5DA1E0;
-z-index: 3;
-margin-top: 50px;
-}
 
 
 p{
@@ -168,7 +118,7 @@ color: #333333;
 
 }
 
-.a1{
+.a{
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   font-weight: 600;
@@ -181,7 +131,7 @@ transform: translateX(-50%);
 top: 678px;
 color:#55116D;
 }
-.a1:hover{
+.a:hover{
 color: #794F88CC
 }
 /* .social-icons1 li{
@@ -193,6 +143,7 @@ color: #794F88CC
 
   background-repeat: no-repeat;
   background-size: contain;
+  overflow:hidden;
 
 
 }
@@ -273,6 +224,20 @@ letter-spacing: 0.02em;
   top: 26px;
 }
 .button:hover {
+  color: #b9b8b8; /* Green */
+
+}
+
+.button2:hover {
+  color: #b9b8b8; /* Green */
+
+}
+
+.button3:hover {
+  color: #b9b8b8; /* Green */
+
+}
+.button4:hover {
   color: #b9b8b8; /* Green */
 
 }
@@ -488,8 +453,8 @@ color: #333333;
 }
 .social-icons2{
   position: absolute;
-  width: 30px;
-  height: 30px;
+  /* width: 30px;
+  height: 30px; */
   left: 50%;
   transform: translateX(-50%);
   top: 495px;
@@ -585,16 +550,16 @@ hr{
       position: absolute;
 left: 50%;
 transform: translateX(-50%);
-top: 60px;
+top: 50px;
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
-font-size: 7px;
-line-height: 10px;
+font-size: 8px;
+line-height: 11px;
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.08em;
-width: 145px;
+width: 165px;
     }
 
     p2{
@@ -623,4 +588,43 @@ width:500px;
 
     }
 
+    h1{
+      position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 224px;
+font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 26px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+color: #E8540B;
+width: 185px;
+    }
+
+    .icon{
+      position: absolute;
+
+      left: 20%;
+
+      top: 320px;
+      list-style: none;
+
+      display: flex;
+      flex-direction: row;
+      opacity: 90%;
+    }
+    li{
+      list-style:none;
+      margin: 0px 2px;
+      display: inline-block;
+      font-size: 20px;
+
+    }
+
+    }
 }
