@@ -488,7 +488,7 @@ hr{
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      top: 150px;
+      top: 157px;
       font-family: 'Roboto', sans-serif;
       font-weight: 500;
       font-size: 6px;
@@ -519,7 +519,7 @@ width: 120px;
     }
     p4{
       position: absolute;
-      top:108px;
+      top:115px;
       left: 50%;
       transform: translateX(-50%);
       font-family: 'Roboto', sans-serif;
