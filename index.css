@@ -222,6 +222,7 @@ letter-spacing: 0.02em;
   left: 26px;
   position: absolute;
   top: 26px;
+  cursor: url(image/mouse.png),auto;
 }
 .button:hover {
   color: #b9b8b8; /* Green */
