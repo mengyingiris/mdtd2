@@ -1,6 +1,7 @@
 
 a{
   text-decoration: none;
+  color: #0C3388;
 
 }
 body{
@@ -40,7 +41,7 @@ nav ul{
 .icon{
   position: absolute;
 
-  left: 38%;
+  left: 34%;
   /* transform: translateX(-50%); */
   top: 485px;
   list-style: none;
@@ -56,8 +57,12 @@ li{
   display: inline-block;
   font-size: 30px;
   text-decoration: none;
+  color: black;
 
 
+}
+ul{
+  color:black;
 }
 .submit{
   position: relative;
@@ -223,6 +228,7 @@ letter-spacing: 0.02em;
   position: absolute;
   top: 26px;
   cursor: url(image/mouse.png),auto;
+
 }
 .button:hover {
   color: #b9b8b8; /* Green */
@@ -485,6 +491,7 @@ hr{
   align-items: center;
   text-align: center;
   top: 130px;
+  cursor: url(image/mouse.png),auto;
 
   }
 
@@ -610,7 +617,7 @@ width: 185px;
     .icon{
       position: absolute;
 
-      left: 20%;
+      left: 16%;
 
       top: 320px;
       list-style: none;
