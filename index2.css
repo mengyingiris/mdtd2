@@ -207,7 +207,7 @@ p1{
   text-align: center;
   color: #0C3388;
   letter-spacing: 0.08em;
-  width: 656px;
+  width: 675px;
 }
 
 p2{
@@ -322,7 +322,7 @@ letter-spacing: 0.02em;
 
 h2{
   position: absolute;
-width: 662px;
+width: 666px;
 height: 37px;
 left: 50%;
 transform: translateX(-50%);
@@ -338,6 +338,7 @@ text-align: center;
 letter-spacing: -0.015em;
 color: #0C3388;
 text-decoration-line: underline;
+text-decoration: underline;
 }
 
 p3{
